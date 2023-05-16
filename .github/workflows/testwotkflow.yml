@@ -10,4 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Do nothing
-        run: echo "This does nothing"
+        run: |
+          echo "This does nothing"
+          sleep 2
