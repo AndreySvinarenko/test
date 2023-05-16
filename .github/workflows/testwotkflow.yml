@@ -12,4 +12,4 @@ jobs:
       - name: Do nothing
         run: |
           echo "This does nothing"
-          sleep 2
+          sleep 15
